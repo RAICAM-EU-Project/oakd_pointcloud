@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>oakd_pointcloud</name>
+  <version>0.1.0</version>
+  <description>OAK-D camera: RGB, Depth and PointCloud2 publisher</description>
+  <maintainer email="dada@ics.forth.gr">Dada</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>depthai</exec_depend>
+</package>
